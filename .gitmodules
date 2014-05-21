@@ -1,0 +1,3 @@
+[submodule "External/MAFuture"]
+	path = External/MAFuture
+	url = git@github.com:lkxf/MAFuture.git
