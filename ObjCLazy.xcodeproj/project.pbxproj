@@ -22,6 +22,12 @@
 		E8319181192EA6070048E4BB /* NSInvocation+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = E8319153192EA6060048E4BB /* NSInvocation+EXT.m */; };
 		E8319182192EA6070048E4BB /* NSMethodSignature+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = E8319155192EA6060048E4BB /* NSMethodSignature+EXT.m */; };
 		E831918E192EA6070048E4BB /* MABlockForwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = E8319178192EA6070048E4BB /* MABlockForwarding.m */; };
+		E83191A9192EA6B10048E4BB /* BlockFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = E831919E192EA6B10048E4BB /* BlockFunction.m */; };
+		E83191AA192EA6B10048E4BB /* Function.m in Sources */ = {isa = PBXBuildFile; fileRef = E83191A0192EA6B10048E4BB /* Function.m */; };
+		E83191AB192EA6B10048E4BB /* MethodFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = E83191A2192EA6B10048E4BB /* MethodFunction.m */; };
+		E83191AC192EA6B10048E4BB /* NSInvocation+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E83191A4192EA6B10048E4BB /* NSInvocation+Extensions.m */; };
+		E83191AD192EA6B10048E4BB /* NSInvocation+Function.m in Sources */ = {isa = PBXBuildFile; fileRef = E83191A6192EA6B10048E4BB /* NSInvocation+Function.m */; };
+		E83191AE192EA6B10048E4BB /* PointerFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = E83191A8192EA6B10048E4BB /* PointerFunction.m */; };
 		E86918BE192A98DE0034465E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86918BD192A98DE0034465E /* Foundation.framework */; };
 		E86918C1192A98DE0034465E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E86918C0192A98DE0034465E /* main.m */; };
 		E86918C5192A98DE0034465E /* ObjCLazy.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E86918C4192A98DE0034465E /* ObjCLazy.1 */; };
@@ -41,6 +47,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E815B3A11930B0A7008CC7A2 /* FCF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCF.h; sourceTree = "<group>"; };
 		E8319127192E97630048E4BB /* MABaseFuture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABaseFuture.h; sourceTree = "<group>"; };
 		E8319128192E97630048E4BB /* MABaseFuture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABaseFuture.m; sourceTree = "<group>"; };
 		E8319129192E97630048E4BB /* MACompoundFuture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACompoundFuture.h; sourceTree = "<group>"; };
@@ -78,6 +85,18 @@
 		E8319155192EA6060048E4BB /* NSMethodSignature+EXT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMethodSignature+EXT.m"; sourceTree = "<group>"; };
 		E8319177192EA6070048E4BB /* MABlockForwarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABlockForwarding.h; sourceTree = "<group>"; };
 		E8319178192EA6070048E4BB /* MABlockForwarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABlockForwarding.m; sourceTree = "<group>"; };
+		E831919D192EA6B10048E4BB /* BlockFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockFunction.h; sourceTree = "<group>"; };
+		E831919E192EA6B10048E4BB /* BlockFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockFunction.m; sourceTree = "<group>"; };
+		E831919F192EA6B10048E4BB /* Function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Function.h; sourceTree = "<group>"; };
+		E83191A0192EA6B10048E4BB /* Function.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Function.m; sourceTree = "<group>"; };
+		E83191A1192EA6B10048E4BB /* MethodFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodFunction.h; sourceTree = "<group>"; };
+		E83191A2192EA6B10048E4BB /* MethodFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodFunction.m; sourceTree = "<group>"; };
+		E83191A3192EA6B10048E4BB /* NSInvocation+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Extensions.h"; sourceTree = "<group>"; };
+		E83191A4192EA6B10048E4BB /* NSInvocation+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Extensions.m"; sourceTree = "<group>"; };
+		E83191A5192EA6B10048E4BB /* NSInvocation+Function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Function.h"; sourceTree = "<group>"; };
+		E83191A6192EA6B10048E4BB /* NSInvocation+Function.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Function.m"; sourceTree = "<group>"; };
+		E83191A7192EA6B10048E4BB /* PointerFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointerFunction.h; sourceTree = "<group>"; };
+		E83191A8192EA6B10048E4BB /* PointerFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointerFunction.m; sourceTree = "<group>"; };
 		E86918BA192A98DE0034465E /* ObjCLazy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjCLazy; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86918BD192A98DE0034465E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E86918C0192A98DE0034465E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -173,10 +192,31 @@
 			path = MABlockForwarding;
 			sourceTree = "<group>";
 		};
+		E831919C192EA6B10048E4BB /* Currying */ = {
+			isa = PBXGroup;
+			children = (
+				E831919D192EA6B10048E4BB /* BlockFunction.h */,
+				E831919E192EA6B10048E4BB /* BlockFunction.m */,
+				E815B3A11930B0A7008CC7A2 /* FCF.h */,
+				E831919F192EA6B10048E4BB /* Function.h */,
+				E83191A0192EA6B10048E4BB /* Function.m */,
+				E83191A1192EA6B10048E4BB /* MethodFunction.h */,
+				E83191A2192EA6B10048E4BB /* MethodFunction.m */,
+				E83191A3192EA6B10048E4BB /* NSInvocation+Extensions.h */,
+				E83191A4192EA6B10048E4BB /* NSInvocation+Extensions.m */,
+				E83191A5192EA6B10048E4BB /* NSInvocation+Function.h */,
+				E83191A6192EA6B10048E4BB /* NSInvocation+Function.m */,
+				E83191A7192EA6B10048E4BB /* PointerFunction.h */,
+				E83191A8192EA6B10048E4BB /* PointerFunction.m */,
+			);
+			path = Currying;
+			sourceTree = "<group>";
+		};
 		E86918B1192A98DE0034465E = {
 			isa = PBXGroup;
 			children = (
 				E8319123192E97620048E4BB /* External */,
+				E831919C192EA6B10048E4BB /* Currying */,
 				E86918BF192A98DE0034465E /* ObjCLazy */,
 				E86918BC192A98DE0034465E /* Frameworks */,
 				E86918BB192A98DE0034465E /* Products */,
@@ -268,21 +308,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E83191AC192EA6B10048E4BB /* NSInvocation+Extensions.m in Sources */,
 				E831917F192EA6070048E4BB /* EXTScope.m in Sources */,
 				E8319136192E97630048E4BB /* MAMethodSignatureCache.m in Sources */,
+				E83191AE192EA6B10048E4BB /* PointerFunction.m in Sources */,
 				E831917D192EA6070048E4BB /* EXTRuntimeExtensions.m in Sources */,
 				E831917A192EA6070048E4BB /* EXTADT.m in Sources */,
 				E8319133192E97630048E4BB /* MABaseFuture.m in Sources */,
 				E831917B192EA6070048E4BB /* EXTConcreteProtocol.m in Sources */,
 				E831917E192EA6070048E4BB /* EXTSafeCategory.m in Sources */,
+				E83191AB192EA6B10048E4BB /* MethodFunction.m in Sources */,
 				E8319134192E97630048E4BB /* MACompoundFuture.m in Sources */,
 				E8319182192EA6070048E4BB /* NSMethodSignature+EXT.m in Sources */,
 				E8319137192E97630048E4BB /* MAProxy.m in Sources */,
+				E83191AA192EA6B10048E4BB /* Function.m in Sources */,
 				E8319135192E97630048E4BB /* MAFuture.m in Sources */,
 				E831918E192EA6070048E4BB /* MABlockForwarding.m in Sources */,
+				E83191A9192EA6B10048E4BB /* BlockFunction.m in Sources */,
 				E86918C1192A98DE0034465E /* main.m in Sources */,
 				E8319180192EA6070048E4BB /* EXTSelectorChecking.m in Sources */,
 				E831917C192EA6070048E4BB /* EXTNil.m in Sources */,
+				E83191AD192EA6B10048E4BB /* NSInvocation+Function.m in Sources */,
 				E8319181192EA6070048E4BB /* NSInvocation+EXT.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
