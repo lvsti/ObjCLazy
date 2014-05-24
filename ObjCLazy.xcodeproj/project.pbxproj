@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8319133192E97630048E4BB /* MABaseFuture.m in Sources */ = {isa = PBXBuildFile; fileRef = E8319128192E97630048E4BB /* MABaseFuture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E8319134192E97630048E4BB /* MACompoundFuture.m in Sources */ = {isa = PBXBuildFile; fileRef = E831912A192E97630048E4BB /* MACompoundFuture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E8319135192E97630048E4BB /* MAFuture.m in Sources */ = {isa = PBXBuildFile; fileRef = E831912C192E97630048E4BB /* MAFuture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E8319136192E97630048E4BB /* MAMethodSignatureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E831912F192E97630048E4BB /* MAMethodSignatureCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E8319137192E97630048E4BB /* MAProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8319131192E97630048E4BB /* MAProxy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E831917A192EA6070048E4BB /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = E831913F192EA6060048E4BB /* EXTADT.m */; };
+		E831917B192EA6070048E4BB /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = E8319141192EA6060048E4BB /* EXTConcreteProtocol.m */; };
+		E831917C192EA6070048E4BB /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = E8319145192EA6060048E4BB /* EXTNil.m */; };
+		E831917D192EA6070048E4BB /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E8319149192EA6060048E4BB /* EXTRuntimeExtensions.m */; };
+		E831917E192EA6070048E4BB /* EXTSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E831914B192EA6060048E4BB /* EXTSafeCategory.m */; };
+		E831917F192EA6070048E4BB /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = E831914D192EA6060048E4BB /* EXTScope.m */; };
+		E8319180192EA6070048E4BB /* EXTSelectorChecking.m in Sources */ = {isa = PBXBuildFile; fileRef = E831914F192EA6060048E4BB /* EXTSelectorChecking.m */; };
+		E8319181192EA6070048E4BB /* NSInvocation+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = E8319153192EA6060048E4BB /* NSInvocation+EXT.m */; };
+		E8319182192EA6070048E4BB /* NSMethodSignature+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = E8319155192EA6060048E4BB /* NSMethodSignature+EXT.m */; };
+		E831918E192EA6070048E4BB /* MABlockForwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = E8319178192EA6070048E4BB /* MABlockForwarding.m */; };
 		E86918BE192A98DE0034465E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86918BD192A98DE0034465E /* Foundation.framework */; };
 		E86918C1192A98DE0034465E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E86918C0192A98DE0034465E /* main.m */; };
 		E86918C5192A98DE0034465E /* ObjCLazy.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E86918C4192A98DE0034465E /* ObjCLazy.1 */; };
@@ -26,6 +41,43 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E8319127192E97630048E4BB /* MABaseFuture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABaseFuture.h; sourceTree = "<group>"; };
+		E8319128192E97630048E4BB /* MABaseFuture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABaseFuture.m; sourceTree = "<group>"; };
+		E8319129192E97630048E4BB /* MACompoundFuture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACompoundFuture.h; sourceTree = "<group>"; };
+		E831912A192E97630048E4BB /* MACompoundFuture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACompoundFuture.m; sourceTree = "<group>"; };
+		E831912B192E97630048E4BB /* MAFuture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFuture.h; sourceTree = "<group>"; };
+		E831912C192E97630048E4BB /* MAFuture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFuture.m; sourceTree = "<group>"; };
+		E831912D192E97630048E4BB /* MAFutureInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFutureInternal.h; sourceTree = "<group>"; };
+		E831912E192E97630048E4BB /* MAMethodSignatureCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMethodSignatureCache.h; sourceTree = "<group>"; };
+		E831912F192E97630048E4BB /* MAMethodSignatureCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMethodSignatureCache.m; sourceTree = "<group>"; };
+		E8319130192E97630048E4BB /* MAProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAProxy.h; sourceTree = "<group>"; };
+		E8319131192E97630048E4BB /* MAProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAProxy.m; sourceTree = "<group>"; };
+		E831913E192EA6060048E4BB /* EXTADT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTADT.h; sourceTree = "<group>"; };
+		E831913F192EA6060048E4BB /* EXTADT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTADT.m; sourceTree = "<group>"; };
+		E8319140192EA6060048E4BB /* EXTConcreteProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTConcreteProtocol.h; sourceTree = "<group>"; };
+		E8319141192EA6060048E4BB /* EXTConcreteProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTConcreteProtocol.m; sourceTree = "<group>"; };
+		E8319142192EA6060048E4BB /* EXTCoroutine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTCoroutine.h; sourceTree = "<group>"; };
+		E8319143192EA6060048E4BB /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		E8319144192EA6060048E4BB /* EXTNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTNil.h; sourceTree = "<group>"; };
+		E8319145192EA6060048E4BB /* EXTNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTNil.m; sourceTree = "<group>"; };
+		E8319146192EA6060048E4BB /* extobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extobjc.h; sourceTree = "<group>"; };
+		E8319147192EA6060048E4BB /* extobjc_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extobjc_Prefix.pch; sourceTree = "<group>"; };
+		E8319148192EA6060048E4BB /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		E8319149192EA6060048E4BB /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		E831914A192EA6060048E4BB /* EXTSafeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTSafeCategory.h; sourceTree = "<group>"; };
+		E831914B192EA6060048E4BB /* EXTSafeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTSafeCategory.m; sourceTree = "<group>"; };
+		E831914C192EA6060048E4BB /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		E831914D192EA6060048E4BB /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
+		E831914E192EA6060048E4BB /* EXTSelectorChecking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTSelectorChecking.h; sourceTree = "<group>"; };
+		E831914F192EA6060048E4BB /* EXTSelectorChecking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTSelectorChecking.m; sourceTree = "<group>"; };
+		E8319150192EA6060048E4BB /* EXTSynthesize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTSynthesize.h; sourceTree = "<group>"; };
+		E8319151192EA6060048E4BB /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		E8319152192EA6060048E4BB /* NSInvocation+EXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+EXT.h"; sourceTree = "<group>"; };
+		E8319153192EA6060048E4BB /* NSInvocation+EXT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+EXT.m"; sourceTree = "<group>"; };
+		E8319154192EA6060048E4BB /* NSMethodSignature+EXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMethodSignature+EXT.h"; sourceTree = "<group>"; };
+		E8319155192EA6060048E4BB /* NSMethodSignature+EXT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMethodSignature+EXT.m"; sourceTree = "<group>"; };
+		E8319177192EA6070048E4BB /* MABlockForwarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABlockForwarding.h; sourceTree = "<group>"; };
+		E8319178192EA6070048E4BB /* MABlockForwarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABlockForwarding.m; sourceTree = "<group>"; };
 		E86918BA192A98DE0034465E /* ObjCLazy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjCLazy; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86918BD192A98DE0034465E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E86918C0192A98DE0034465E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,9 +97,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8319123192E97620048E4BB /* External */ = {
+			isa = PBXGroup;
+			children = (
+				E8319139192EA6060048E4BB /* libextobjc */,
+				E8319175192EA6070048E4BB /* MABlockForwarding */,
+				E8319124192E97620048E4BB /* MAFuture */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		E8319124192E97620048E4BB /* MAFuture */ = {
+			isa = PBXGroup;
+			children = (
+				E8319127192E97630048E4BB /* MABaseFuture.h */,
+				E8319128192E97630048E4BB /* MABaseFuture.m */,
+				E8319129192E97630048E4BB /* MACompoundFuture.h */,
+				E831912A192E97630048E4BB /* MACompoundFuture.m */,
+				E831912B192E97630048E4BB /* MAFuture.h */,
+				E831912C192E97630048E4BB /* MAFuture.m */,
+				E831912D192E97630048E4BB /* MAFutureInternal.h */,
+				E831912E192E97630048E4BB /* MAMethodSignatureCache.h */,
+				E831912F192E97630048E4BB /* MAMethodSignatureCache.m */,
+				E8319130192E97630048E4BB /* MAProxy.h */,
+				E8319131192E97630048E4BB /* MAProxy.m */,
+			);
+			path = MAFuture;
+			sourceTree = "<group>";
+		};
+		E8319139192EA6060048E4BB /* libextobjc */ = {
+			isa = PBXGroup;
+			children = (
+				E831913D192EA6060048E4BB /* extobjc */,
+			);
+			path = libextobjc;
+			sourceTree = "<group>";
+		};
+		E831913D192EA6060048E4BB /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				E831913E192EA6060048E4BB /* EXTADT.h */,
+				E831913F192EA6060048E4BB /* EXTADT.m */,
+				E8319140192EA6060048E4BB /* EXTConcreteProtocol.h */,
+				E8319141192EA6060048E4BB /* EXTConcreteProtocol.m */,
+				E8319142192EA6060048E4BB /* EXTCoroutine.h */,
+				E8319143192EA6060048E4BB /* EXTKeyPathCoding.h */,
+				E8319144192EA6060048E4BB /* EXTNil.h */,
+				E8319145192EA6060048E4BB /* EXTNil.m */,
+				E8319146192EA6060048E4BB /* extobjc.h */,
+				E8319147192EA6060048E4BB /* extobjc_Prefix.pch */,
+				E8319148192EA6060048E4BB /* EXTRuntimeExtensions.h */,
+				E8319149192EA6060048E4BB /* EXTRuntimeExtensions.m */,
+				E831914A192EA6060048E4BB /* EXTSafeCategory.h */,
+				E831914B192EA6060048E4BB /* EXTSafeCategory.m */,
+				E831914C192EA6060048E4BB /* EXTScope.h */,
+				E831914D192EA6060048E4BB /* EXTScope.m */,
+				E831914E192EA6060048E4BB /* EXTSelectorChecking.h */,
+				E831914F192EA6060048E4BB /* EXTSelectorChecking.m */,
+				E8319150192EA6060048E4BB /* EXTSynthesize.h */,
+				E8319151192EA6060048E4BB /* metamacros.h */,
+				E8319152192EA6060048E4BB /* NSInvocation+EXT.h */,
+				E8319153192EA6060048E4BB /* NSInvocation+EXT.m */,
+				E8319154192EA6060048E4BB /* NSMethodSignature+EXT.h */,
+				E8319155192EA6060048E4BB /* NSMethodSignature+EXT.m */,
+			);
+			path = extobjc;
+			sourceTree = "<group>";
+		};
+		E8319175192EA6070048E4BB /* MABlockForwarding */ = {
+			isa = PBXGroup;
+			children = (
+				E8319177192EA6070048E4BB /* MABlockForwarding.h */,
+				E8319178192EA6070048E4BB /* MABlockForwarding.m */,
+			);
+			path = MABlockForwarding;
+			sourceTree = "<group>";
+		};
 		E86918B1192A98DE0034465E = {
 			isa = PBXGroup;
 			children = (
+				E8319123192E97620048E4BB /* External */,
 				E86918BF192A98DE0034465E /* ObjCLazy */,
 				E86918BC192A98DE0034465E /* Frameworks */,
 				E86918BB192A98DE0034465E /* Products */,
@@ -139,7 +268,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E831917F192EA6070048E4BB /* EXTScope.m in Sources */,
+				E8319136192E97630048E4BB /* MAMethodSignatureCache.m in Sources */,
+				E831917D192EA6070048E4BB /* EXTRuntimeExtensions.m in Sources */,
+				E831917A192EA6070048E4BB /* EXTADT.m in Sources */,
+				E8319133192E97630048E4BB /* MABaseFuture.m in Sources */,
+				E831917B192EA6070048E4BB /* EXTConcreteProtocol.m in Sources */,
+				E831917E192EA6070048E4BB /* EXTSafeCategory.m in Sources */,
+				E8319134192E97630048E4BB /* MACompoundFuture.m in Sources */,
+				E8319182192EA6070048E4BB /* NSMethodSignature+EXT.m in Sources */,
+				E8319137192E97630048E4BB /* MAProxy.m in Sources */,
+				E8319135192E97630048E4BB /* MAFuture.m in Sources */,
+				E831918E192EA6070048E4BB /* MABlockForwarding.m in Sources */,
 				E86918C1192A98DE0034465E /* main.m in Sources */,
+				E8319180192EA6070048E4BB /* EXTSelectorChecking.m in Sources */,
+				E831917C192EA6070048E4BB /* EXTNil.m in Sources */,
+				E8319181192EA6070048E4BB /* NSInvocation+EXT.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
